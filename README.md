@@ -7,7 +7,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/douglasdubois/GameStop_Scraper">
+  <a href="https://github.com/douglasdubois/GameStop-Scraper">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -16,14 +16,14 @@
   <p align="center">
     A lightweight program designed to pull product data from www.gamestop.com and send an email notification once a desired product becomes available. 
     <br />
-    <a href="https://github.com/douglasdubois/GameStop_Scraper"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/douglasdubois/GameStop-Scraper"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/douglasdubois/GameStop_Scraper">View Demo</a>
+    <a href="https://github.com/douglasdubois/GameStop-Scraper">View Demo</a>
     ·
-    <a href="https://github.com/douglasdubois/GameStop_Scraper/issues">Report Bug</a>
+    <a href="https://github.com/douglasdubois/GameStop-Scraper/issues">Report Bug</a>
     ·
-    <a href="https://github.com/douglasdubois/GameStop_Scraper/issues">Request Feature</a>
+    <a href="https://github.com/douglasdubois/GameStop-Scraper/issues">Request Feature</a>
   </p>
 </p>
 
@@ -56,7 +56,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+A lightweight program designed to pull product data from www.gamestop.com and send an email notification once a desired product becomes available.
 
 ### Built With
 
@@ -73,22 +73,22 @@ To get a local copy up and running follow these simple steps.
 
 To see which version of Python 3 you have installed, open a command prompt and run
 
-    ```sh
-    $ python3 --version
-    ```
+```sh
+python3 --version
+```
 
 If you are using Ubuntu 16.10 or newer, then you can easily install Python 3.6 with the following commands:
 
-    ```sh
-    $ sudo apt-get update
-    $ sudo apt-get install python3.6
-    ```
+```sh
+sudo apt-get update
+sudo apt-get install python3.6
+```
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/douglasdubois/GameStop_Scraper.git
+   git clone https://github.com/douglasdubois/GameStop-Scraper.git
    ```
 
 2. Download [ChromeDriver](https://chromedriver.chromium.org/downloads), extract, and place in project root
@@ -96,14 +96,14 @@ If you are using Ubuntu 16.10 or newer, then you can easily install Python 3.6 w
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. Replace variables in [.env](https://github.com/douglasdubois/GameStop_Scraper/master/.env).
+1. Replace variables in [.env](https://github.com/douglasdubois/GameStop-Scraper/blob/main/.env).
 
-2. Replace name and url in [products.json](https://github.com/douglasdubois/GameStop_Scraper/master/products.json) with the product you want to be notified of when available. You can add as many products following the same format.
+2. Replace name and url in [products.json](https://github.com/douglasdubois/GameStop-Scraper/blob/main/products.json) with the product you want to be notified of when available. You can add as many products following the same format.
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/douglasdubois/GameStop_Scraper/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/douglasdubois/GameStop-Scraper/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -119,31 +119,29 @@ Contributions are what make the open source community such an amazing place to l
 <!-- LICENSE -->
 ## License
 
-Distributed under the GNU General Public License. See `LICENSE` for more information.
+Distributed under the GNU General Public License. See `[LICENSE[]` for more information.
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@pr0ftr3gret](https://twitter.com/pr0ftr3gret) - email
+Douglas DuBois - [@douglasadubois](https://twitter.com/douglasadubois) - douglas.dubois1@gmail.com
 
-Project Link: [https://github.com/douglasdubois/GameStop_Scraper](https://github.com/douglasdubois/GameStop_Scraper)
+Project Link: [https://github.com/douglasdubois/GameStop-Scraper](https://github.com/douglasdubois/GameStop-Scraper)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* [Dalton Edmisten](https://github.com/deuce109)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/douglasdubois/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/douglasdubois/GameStop_Scraper/graphs/contributors
+[contributors-url]: https://github.com/douglasdubois/GameStop-Scraper/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/douglasdubois/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/douglasdubois/GameStop_Scraper/network/members
+[forks-url]: https://github.com/douglasdubois/GameStop-Scraper/network/members
 [stars-shield]: https://img.shields.io/github/stars/douglasdubois/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/douglasdubois/GameStop_Scraper/stargazers
+[stars-url]: https://github.com/douglasdubois/GameStop-Scraper/stargazers
 [issues-shield]: https://img.shields.io/github/issues/douglasdubois/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/douglasdubois/GameStop_Scraper/issues
+[issues-url]: https://github.com/douglasdubois/GameStop-Scraper/issues
 [license-shield]: https://img.shields.io/github/license/douglasdubois/repo.svg?style=for-the-badge
-[license-url]: https://github.com/douglasdubois/GameStop_Scraper/blob/master/LICENSE.txt
+[license-url]: https://github.com/douglasdubois/GameStop-Scraper/blob/blob/main/LICENSE.txt
