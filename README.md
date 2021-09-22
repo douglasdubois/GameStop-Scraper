@@ -96,9 +96,9 @@ sudo apt-get install python3.6
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. Replace variables in [.env](https://github.com/douglasdubois/GameStop-Scraper/blob/main/.env).
+1. Replace variables in [`.env`](https://github.com/douglasdubois/GameStop-Scraper/blob/main/.env).
 
-2. Replace name and url in [products.json](https://github.com/douglasdubois/GameStop-Scraper/blob/main/products.json) with the product you want to be notified of when available. You can add as many products following the same format.
+2. Replace name and url in [`products.json`](https://github.com/douglasdubois/GameStop-Scraper/blob/main/products.json) with the product you want to be notified of when available. You can add as many products following the same format.
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -119,7 +119,7 @@ Contributions are what make the open source community such an amazing place to l
 <!-- LICENSE -->
 ## License
 
-Distributed under the GNU General Public License. See `[LICENSE[]` for more information.
+Distributed under the GNU General Public License. See [`LICENSE`](https://github.com/douglasdubois/GameStop-Scraper/blob/main/LICENSE.txt) for more information.
 
 <!-- CONTACT -->
 ## Contact
