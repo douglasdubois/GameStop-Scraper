@@ -87,11 +87,14 @@ sudo apt-get install python3.6
 ### Installation
 
 1. Clone the repo
-   ```sh
-   git clone https://github.com/douglasdubois/GameStop-Scraper.git
-   ```
+    ```sh
+    git clone https://github.com/douglasdubois/GameStop-Scraper.git
+    ```
 
-2. Download [ChromeDriver](https://chromedriver.chromium.org/downloads), extract, and place in project root
+2. Download [ChromeDriver](https://chromedriver.chromium.org/downloads), extract to project root, and add to path
+    ```sh
+    echo 'export PATH=$PATH:/path/to/chromedriver' >> ~/.bashrc
+    ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
