@@ -1,0 +1,16 @@
+{
+    "products": [
+        {
+            "name": "Product Name 1",
+            "url": "https://www.gamestop.com/link-to-product-1"
+        },
+        {
+            "name": "Product Name 2",
+            "url": "https://www.gamestop.com/link-to-product-2"
+        },
+        {
+            "name": "Product Name 3",
+            "url": "https://www.gamestop.com/link-to-product-3"
+        }
+    ]
+}
