@@ -144,4 +144,4 @@ Project Link: [https://github.com/douglasdubois/GameStop-Scraper](https://github
 [issues-shield]: https://img.shields.io/github/issues/douglasdubois/repo.svg?style=for-the-badge
 [issues-url]: https://github.com/douglasdubois/GameStop-Scraper/issues
 [license-shield]: https://img.shields.io/github/license/douglasdubois/repo.svg?style=for-the-badge
-[license-url]: https://github.com/douglasdubois/GameStop-Scraper/blob/blob/main/LICENSE
+[license-url]: https://github.com/douglasdubois/GameStop-Scraper/blob/main/LICENSE
