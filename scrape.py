@@ -19,10 +19,10 @@ while True:
             browser.get(product['url'])
             for condition in browser.find_elements_by_class_name('condition-label'):
                 condition.click()
-                if browser.find_element_by_class_name('add-to-cart').text == 'ADD TO CART':
+                time.sleep(1)
+                if condition.text != 'Digital' and browser.find_element_by_class_name('add-to-cart').text == 'ADD TO CART':
                     send_email(product['name'], product['url'],
                                condition=condition.text)
-                time.sleep(1)
         except Exception as error:
             send_email(product['name'], product['url'],
                        subject="error", error=error)
