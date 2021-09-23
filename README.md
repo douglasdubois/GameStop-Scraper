@@ -63,7 +63,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-* python3
+* Python 3
 
 1. To see which version of Python 3 you have installed, open a command prompt and run
 
@@ -71,11 +71,18 @@ To get a local copy up and running follow these simple steps.
     python3 --version
     ```
 
-2. If you are using Ubuntu 16.10 or newer, then you can easily install Python 3.6 with the following commands:
+2a. Using Debian-based distributions, install Python 3 with the following commands:
 
     ```sh
     sudo apt-get update
-    sudo apt-get install python3.6
+    sudo apt-get install python3.8
+    ```
+    
+2b. Using Fedora-based distributions, install Python 3 with the following commands:
+    
+    ```sh
+    sudo dnf upgrade
+    sudo dnf install python3.8
     ```
 
 ### Installation
