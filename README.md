@@ -65,24 +65,32 @@ To get a local copy up and running follow these simple steps.
 
 * python3
 
-  To see which version of Python 3 you have installed, open a command prompt and run
+1. To see which version of Python 3 you have installed, open a command prompt and run
 
-  `python3 --version`
+    ```sh
+    python3 --version
+    ```
 
-  If you are using Ubuntu 16.10 or newer, then you can easily install Python 3.6 with the following commands:
+2. If you are using Ubuntu 16.10 or newer, then you can easily install Python 3.6 with the following commands:
 
-  ```sh
-  sudo apt-get update
-  sudo apt-get install python3.6
-  ```
+    ```sh
+    sudo apt-get update
+    sudo apt-get install python3.6
+    ```
 
 ### Installation
 
 1. Clone the repo
-   `git clone https://github.com/douglasdubois/GameStop-Scraper.git`
 
-2. Download [ChromeDriver](https://chromedriver.chromium.org/downloads), extract to project root, and add to path
-   `echo 'export PATH=$PATH:/path/to/chromedriver' >> ~/.bashrc`
+     ```sh
+     git clone https://github.com/douglasdubois/GameStop-Scraper.git
+     ```
+
+2. Download [ChromeDriver](https://chromedriver.chromium.org/downloads), extract to project root, and add to PATH
+   
+     ```sh
+     echo 'export PATH=$PATH:/path/to/chromedriver' >> ~/.bashrc
+     ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -103,11 +111,23 @@ Contributions are what make the open source community such an amazing place to l
 
 1. Fork the Project
 2. Create your Feature Branch
-   `git checkout -b feature/AmazingFeature`
+   
+     ```sh
+     git checkout -b feature/AmazingFeature
+     ```
+   
 3. Commit your Changes
-   `git commit -m 'Add some AmazingFeature'`
+
+     ```sh
+     git commit -m 'Add some AmazingFeature'
+     ```
+   
 4. Push to the Branch
-   `git push origin feature/AmazingFeature`
+
+     ```sh
+     git push origin feature/AmazingFeature
+     ```
+   
 5. Open a Pull Request
 
 <!-- LICENSE -->
@@ -126,3 +146,4 @@ Project Link: [https://github.com/douglasdubois/GameStop-Scraper](https://github
 ## Acknowledgements
 
 * [Dalton Edmisten](https://github.com/deuce109)
+* [Trevor Jackson](https://github.com/trevjackson)
