@@ -25,7 +25,7 @@ while True:
                                condition=condition.text)
         except Exception as error:
             send_email(product['name'], product['url'],
-                       subject="error", error=error)
-            break
+                       subject='Error', error=error)
+            continue
         finally:
             time.sleep(random.randint(5, 10))

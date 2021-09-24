@@ -13,7 +13,7 @@ password = os.getenv('PASSWORD')
 def send_email(name, url, subject='', condition='', error=''):
     message = EmailMessage()
     
-    message.add_header('Subject', f'(Error) {name}' if subject == 'Error' else f'({condition}) {name}')
+    message.add_header('Subject', f'({subject}) {name}' if subject == 'Error' else f'({condition}) {name}')
     message.add_header('From', email_from)
     message.add_header('To', email_to)
     message.set_content(f'Product: {name}\nURL: {url}\nError: {error}' if subject == 'error' else f'Product: {name}\nURL: {url}')
