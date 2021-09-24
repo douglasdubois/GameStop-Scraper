@@ -1,9 +1,3 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![GNU Public License][license-shield]][license-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -69,32 +63,41 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-* python3
+* Python 3
 
-To see which version of Python 3 you have installed, open a command prompt and run
+1. To see which version of Python 3 you have installed, open a command prompt and run
 
-```sh
-python3 --version
-```
+    ```sh
+    python3 --version
+    ```
 
-If you are using Ubuntu 16.10 or newer, then you can easily install Python 3.6 with the following commands:
+2a. Using Debian-based distributions, install Python 3 with the following commands:
 
-```sh
-sudo apt-get update
-sudo apt-get install python3.6
-```
+    ```sh
+    sudo apt-get update
+    sudo apt-get install python3.8
+    ```
+    
+2b. Using Fedora-based distributions, install Python 3 with the following commands:
+    
+    ```sh
+    sudo dnf upgrade
+    sudo dnf install python3.8
+    ```
 
 ### Installation
 
 1. Clone the repo
-    ```sh
-    git clone https://github.com/douglasdubois/GameStop-Scraper.git
-    ```
 
-2. Download [ChromeDriver](https://chromedriver.chromium.org/downloads), extract to project root, and add to path
-    ```sh
-    echo 'export PATH=$PATH:/path/to/chromedriver' >> ~/.bashrc
-    ```
+     ```sh
+     git clone https://github.com/douglasdubois/GameStop-Scraper.git
+     ```
+
+2. Download [ChromeDriver](https://chromedriver.chromium.org/downloads), extract to project root, and add to PATH
+   
+     ```sh
+     echo 'export PATH=$PATH:/path/to/chromedriver' >> ~/.bashrc
+     ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -114,15 +117,30 @@ See the [open issues](https://github.com/douglasdubois/GameStop-Scraper/issues) 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch
+   
+     ```sh
+     git checkout -b feature/AmazingFeature
+     ```
+   
+3. Commit your Changes
+
+     ```sh
+     git commit -m 'Add some AmazingFeature'
+     ```
+   
+4. Push to the Branch
+
+     ```sh
+     git push origin feature/AmazingFeature
+     ```
+   
 5. Open a Pull Request
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the GNU General Public License. See [`LICENSE`](https://github.com/douglasdubois/GameStop-Scraper/blob/main/LICENSE.txt) for more information.
+Distributed under the GNU General Public License. See [`LICENSE`](https://github.com/douglasdubois/GameStop-Scraper/blob/main/LICENSE) for more information.
 
 <!-- CONTACT -->
 ## Contact
@@ -135,16 +153,4 @@ Project Link: [https://github.com/douglasdubois/GameStop-Scraper](https://github
 ## Acknowledgements
 
 * [Dalton Edmisten](https://github.com/deuce109)
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/douglasdubois/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/douglasdubois/GameStop-Scraper/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/douglasdubois/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/douglasdubois/GameStop-Scraper/network/members
-[stars-shield]: https://img.shields.io/github/stars/douglasdubois/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/douglasdubois/GameStop-Scraper/stargazers
-[issues-shield]: https://img.shields.io/github/issues/douglasdubois/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/douglasdubois/GameStop-Scraper/issues
-[license-shield]: https://img.shields.io/github/license/douglasdubois/repo.svg?style=for-the-badge
-[license-url]: https://github.com/douglasdubois/GameStop-Scraper/blob/main/LICENSE
+* [Trevor Jackson](https://github.com/trevjackson)
