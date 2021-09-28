@@ -1,9 +1,8 @@
 import json
-import os
-import random
 import time
 
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 
 from send_email import send_email
 
@@ -11,21 +10,25 @@ file = open('products.json')
 data = json.load(file)
 file.close()
 
-browser = webdriver.Chrome()
+options = Options()
+options.add_argument("--headless")
 
 while True:
     for index, product in enumerate(data['products']):
         try:
+            browser = webdriver.Chrome(options=options)
             browser.get(product['url'])
             for condition in browser.find_elements_by_class_name('condition-label'):
-                condition.click()
-                time.sleep(1)
-                if condition.text != 'Digital' and browser.find_element_by_class_name('add-to-cart').text == 'ADD TO CART':
-                    send_email(product['name'], product['url'],
-                               condition=condition.text)
+                if condition.text != 'Digital':
+                    condition.click()
+                    time.sleep(1)
+                    if browser.find_element_by_class_name('add-to-cart').text == 'Add to Cart':
+                        send_email(
+                            product['name'], product['url'], condition=condition.text)
         except Exception as error:
             send_email(product['name'], product['url'],
                        subject='Error', error=error)
-            continue
+            pass
         finally:
-            time.sleep(random.randint(5, 10))
+            browser.close()
+            time.sleep(5)
